@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Helpdesk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>IT Helpdesk Ticketing System</h1>
+    <form id="ticketForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <select id="issueType" required>
+        <option value="">Select Issue Type</option>
+        <option>Software</option>
+        <option>Hardware</option>
+        <option>Network</option>
+        <option>Access Issue</option>
+      </select>
+      <select id="priority" required>
+        <option value="">Select Priority</option>
+        <option>Low</option>
+        <option>Medium</option>
+        <option>High</option>
+      </select>
+      <textarea id="description" placeholder="Describe your issue" required></textarea>
+      <button type="submit">Submit Ticket</button>
+    </form>
+    <p id="message"></p>
+    <a href="admin.html">Go to Admin Panel</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
