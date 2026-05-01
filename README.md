@@ -1,34 +1,25 @@
-# IT Helpdesk Ticketing System
+# IT Helpdesk System (AWS Deployment)
 
-A simple and responsive IT Helpdesk Ticketing System developed using HTML, CSS, and JavaScript. This project allows users to submit support tickets and enables admin to manage ticket status efficiently.
+## 🚀 Live Demo
+http://helpdesk-project-12.s3-website-us-east-1.amazonaws.com
 
-## 🚀 Features
+## 📌 Project Overview
+This is a multi-page IT Helpdesk web application with a user interface and admin panel.
 
-### User Panel
-- Submit IT support tickets
-- Enter Name, Email, Issue Type, Priority, Description
-- Auto store tickets in browser localStorage
-
-### Admin Panel
-- View all submitted tickets
-- Update ticket status:
-  - Open
-  - In Progress
-  - Resolved
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
+## ⚙️ Tech Stack
+- HTML
+- CSS
 - JavaScript
-- LocalStorage
+- AWS S3
 
-## 📂 Project Structure
+## ☁️ Deployment
+Deployed using Amazon S3 static website hosting. Configured bucket policy and resolved 403 access issues during deployment.
 
-```text
-IT-Helpdesk-System/
-│── index.html
-│── style.css
-│── script.js
-│── admin.html
-│── admin.js
+## 🔗 Pages
+- User: /index.html
+- Admin: /admin.html
+
+## 💡 Features
+- Ticket submission
+- Admin ticket view
+- Simple UI navigation
